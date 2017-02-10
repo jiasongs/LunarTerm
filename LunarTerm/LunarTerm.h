@@ -20,4 +20,3 @@ FOUNDATION_EXPORT const unsigned char LunarTermVersionString[];
 #import "LTDate.h"
 #import "LunarDate.h"
 #import "SolarTerm.h"
-#import "Festival.h"
