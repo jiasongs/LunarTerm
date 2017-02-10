@@ -9,6 +9,33 @@
 #import <Foundation/Foundation.h>
 #import "LTDate.h"
 
+typedef enum TermIndex: NSInteger {
+    XiaoHan,
+    DaHan,
+    LiChun,
+    YuShui,
+    JingZhe,
+    ChunFen,
+    QingMing,
+    GuYu,
+    LiXia,
+    XiaoMan,
+    MangZhong,
+    XiaZhi,
+    XiaoShu,
+    DaShu,
+    LiQiu,
+    ChuShu,
+    BaiLu,
+    QiuFen,
+    HanLu,
+    ShuangJiang,
+    LiDong,
+    XiaoXue,
+    DaXue,
+    DongZhi
+}TermIndex;
+
 @interface SolarTerm : NSObject
 
 /**
